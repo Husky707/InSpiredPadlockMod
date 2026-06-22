@@ -1,0 +1,13 @@
+{
+  "${modID}:LockStrings": {
+    "TEXT": [ "锁定", "解锁", "右键点击一个 ", "来锁定/解锁它。" ],
+    "TEXT_DICT": {
+      "RELIC": "遗物",
+      "CARD": "卡牌",
+      "POTION": "药剂"
+    },
+    "EXTRA_TEXT": [
+      "锁定的诅咒仍然会由专门产生该诅咒的事件和效果产生。",
+      "Locked curses will still be created by events and effects that specifically create that curse."]
+  }
+}

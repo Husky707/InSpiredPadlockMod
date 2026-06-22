@@ -1,0 +1,11 @@
+{
+  "${modID}:LockStrings":{
+    "TEXT": [ "Lock", "Unlock", "Right-Click on a ", "to lock/unlock it."],
+    "EXTRA_TEXT": ["Locked curses will still be created by events and effects that specifically create that curse."],
+    "TEXT_DICT": {
+      "RELIC" : "relic",
+      "CARD" : "card",
+      "POTION" : "potion"
+    }
+  }
+}
