@@ -101,6 +101,10 @@ public class PadlockMain implements
 
     @Override
     public void receiveAddAudio() {
+        String path = "padlock/audio/";
+        BaseMod.addAudio("Shatter_1",path + "Shatter_1.wav");
+        BaseMod.addAudio("Shatter_2",path + "Shatter_2.wav");
+        BaseMod.addAudio("Shatter_3",path + "Shatter_3.wav");
         loadAudio(Sounds.class);
     }
 

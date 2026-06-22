@@ -170,8 +170,8 @@ public class PotionLocker {
         public static void patch(SpriteBatch sb){
             FontHelper.renderFont(sb, FontHelper.tipHeaderFont, TEXT[2] + uiStrings.TEXT_DICT.get("POTION"), 20.0F * Settings.scale, 310.0F * Settings.scale, Color.WHITE.cpy());
             FontHelper.renderFont(sb, FontHelper.tipHeaderFont, TEXT[3], 50.0F * Settings.scale, 280.0F * Settings.scale, Color.WHITE.cpy());
-            float lockX = 5f;
-            float lockY = 295.0f;
+            float lockX = (16f-64f)*Settings.scale;
+            float lockY = 290.0f*Settings.scale;
             sb.setColor(Color.BLACK);
             sb.draw(ImageMaster.RELIC_LOCK_OUTLINE, lockX, lockY, 64.0F, 64.0F, 128.0F, 128.0F, Settings.scale, Settings.scale, 0.0F, 0, 0, 128, 128, false, false);
             sb.setColor(Color.WHITE);
